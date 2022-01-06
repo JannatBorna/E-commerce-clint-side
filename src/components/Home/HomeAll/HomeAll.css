@@ -1,0 +1,52 @@
+.first_Section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.first_design {
+    width: 100%;
+}
+
+
+.watch {
+    background-color: rgb(191, 194, 196) !important;
+}
+
+.bag {
+    background-color: rgb(230, 226, 225);
+}
+
+.shoes {
+    background-color: rgb(234, 235, 229);
+}
+
+/* .inner {
+    overflow: hidden;
+} */
+
+.inner img {
+    transition: all 1.5s ease;
+}
+
+.inner:hover img {
+    transform: scale(1.5);
+}
+
+
+
+@media only screen and (max-width:688px) {
+    .first_Section {
+        grid-template-columns: repeat(1, 1fr);
+
+
+    }
+}
+
+@media only screen and (min-width:689px) and (max-width: 991px) {
+    .first_Section {
+        grid-template-columns: repeat(2, 1fr);
+
+
+    }
+}

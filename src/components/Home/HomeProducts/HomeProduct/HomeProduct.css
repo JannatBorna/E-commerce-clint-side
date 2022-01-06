@@ -1,0 +1,47 @@
+.service {
+    text-align: center;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.service img {
+    width: 20%;
+
+}
+
+.card {
+    width: 45ch;
+    height: 63ch;
+    border-radius: 5px;
+    box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.5s;
+    will-change: transform;
+    border: 15px solid white;
+}
+
+.card:hover {
+    box-shadow: 0px 30px 100px -10px rgba(0, 0, 0, 0.4);
+}
+
+.service_fee {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.describe_text {
+    font-size: 13px;
+    color: gray;
+}
+
+.app_button {
+    background-color: rgb(202, 15, 77) !important;
+    color: white !important;
+    border-radius: 4px;
+}
+
+.category_text {
+    color: brown;
+    font-size: 20px;
+    font-weight: 600;
+
+}

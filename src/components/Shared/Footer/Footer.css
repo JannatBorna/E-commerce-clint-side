@@ -1,0 +1,114 @@
+.icon {
+    margin: 5px;
+    padding: 5px;
+    color: rgb(228, 228, 228);
+    font-size: 25px;
+}
+
+.icon {
+    overflow: hidden;
+}
+
+.icon {
+    transition: all 1.5s ease;
+}
+
+.icon:hover img {
+    transform: scale(1.5);
+
+}
+
+.icon_instagram {
+    color: red !important;
+}
+
+.icon_twitter {
+    color: rgb(29, 133, 198) !important;
+}
+
+.icon_youtube {
+    color: rgb(245, 24, 24) !important;
+}
+
+.icon_facebook {
+    color: rgb(21, 51, 199) !important;
+}
+
+
+.footer-menu {
+    list-style: none;
+    margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.footer-menu:hover {
+    color: rgb(221, 55, 55) !important;
+}
+
+.footer-input {
+    padding: 8px;
+    border: none;
+    outline: none;
+    /* background-color: rgb(226, 226, 226) !important; */
+    border: 1px solid gray;
+}
+
+.footer-container {
+    background-color: #ececec;
+    padding: 10px;
+    color: rgb(70, 70, 70) !important;
+
+}
+
+.footer-phone-icon {
+    font-size: 20px;
+    color: rgb(14, 5, 5) !important;
+}
+
+.footer_name {
+    color: rgb(10, 36, 65);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.footer_name:hover {
+    color: rgb(196, 44, 44);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 35px;
+    font-weight: 600;
+
+}
+
+
+.footer_button {
+    font-size: 24px;
+    margin-left: 10px;
+    background-color: rgb(171, 24, 78) !important;
+    color: white !important;
+    border-radius: 5px;
+}
+
+.footer_number {
+    font-size: 12px;
+}
+
+
+@media only screen and (max-width:688px) {
+    .footer-responsive {
+        width: 100%;
+    }
+
+    .footer_button {
+        font-size: 10px;
+        margin-left: -20px;
+        background-color: rgb(10, 36, 65) !important;
+    }
+}
+
+@media only screen and (min-width:689px) and (max-width: 991px) {
+    .footer-responsive {
+        width: 100%;
+    }
+}

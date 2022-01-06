@@ -1,0 +1,51 @@
+.all_items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+
+}
+
+.fa-artstation {
+    font-size: 40px;
+}
+
+.fa-paper-plane {
+    font-size: 40px;
+}
+
+.fa-shopify {
+    font-size: 40px;
+}
+
+.fa-headset {
+    font-size: 40px;
+}
+
+.items {
+    margin-left: 20px;
+    margin-bottom: -30px;
+}
+
+.item_size {
+    width: 100%;
+    height: 120px;
+    box-shadow: 5px 10px #888888;
+
+}
+
+
+@media only screen and (max-width:688px) {
+    .all_items {
+        grid-template-columns: repeat(1, 1fr);
+
+
+    }
+}
+
+@media only screen and (min-width:689px) and (max-width: 991px) {
+    .all_items {
+        grid-template-columns: repeat(2, 1fr);
+
+
+    }
+}

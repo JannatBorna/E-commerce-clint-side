@@ -1,0 +1,27 @@
+.not-found img {
+    width: 90%;
+    height: 400px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.btn {
+    background-color: rgb(221, 68, 68) !important;
+
+}
+
+.btn-align {
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-sad-tear {
+    color: rgb(221, 68, 68) !important;
+}
+
+.found_button {
+    background-color: rgb(228, 24, 24) !important;
+    color: rgb(238, 237, 237) !important;
+    border-radius: 5px;
+
+}
